@@ -20,7 +20,7 @@ body {
     height: 100vh;
 }
 
-#nav-kontener {
+#subscribers-kontener {
     float: left;
     display: flex;
     flex-direction: column;
@@ -35,24 +35,4 @@ body {
     text-decoration: none;
     color: blue;
 
-}
-
-#subscribers-kontener {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1em;
-    width: 10%;
-    list-style-type: none;
-}
-
-#articles-kontener {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1em;
-    width: 10%;
-    list-style-type: none;
 }

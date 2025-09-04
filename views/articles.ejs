@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/public/css/articles.css">
+        <title>Cikkek</title>
+    </head>
+    <body>
+        <div id="articles-kontener">
+            <h1>Cikkek</h1>
+            <% for ( let i = 0; i < articles.length; i++) { %>
+            <li>Szerző: <%= articles[i].nev %></li>
+             <li>Cikkek: <%= articles[i].nev %></li>
+              <% } %>
+        </div>
+    </body>
+</html>

@@ -37,16 +37,6 @@ body {
 
 }
 
-#subscribers-kontener {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1em;
-    width: 10%;
-    list-style-type: none;
-}
-
 #articles-kontener {
     float: left;
     display: flex;
